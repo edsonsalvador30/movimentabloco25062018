@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly formTarget="src/main/webapp/views/admin/user.view.html" resourceType="JAVA" ruleDescription="Block" ruleName="Block" ruleSynchronous="false" ruleTimeout="300" ruleType="I">
+  <metadata scale="1" scrollx="314.0000000000009" scrolly="7.000000000000057" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <block colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Creates a function with an output." type="procedures_defreturn" x="-277" y="158">
+    <field name="NAME">Execute</field>
+    <comment h="80" pinned="false" w="160">Block</comment>
+    <statement name="STACK">
+      <block colour="#a55b80" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="@%a?xMGI!KpK9h@G{!;:" origintype="variables_set" output="false" tooltip="Sets this variable to be equal to the input." type="variables_set">
+        <field name="VAR">item</field>
+        <value name="VALUE">
+          <block colour="#934848" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="-Sa1a,`][W{#Y^NWvS5s" multilayer="true" namespace="cronapi.screen.datasourceFromScreen" origintype="datasource_from_screen" output="true" returntype="ObjectType.STRING" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3EName:%3C/strong%3E%3Cdiv%3EGet%20Datasource%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescription:%3C/strong%3E%3Cdiv%3EFunction%20that%20return%20the%20datasource%20name%20from%20target%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParameters:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Datasource%20name%20:%20String%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3EReturn:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20String%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EHelp:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.datasourceFromScreen%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.datasourceFromScreen%3C/a%3E%3C/div%3E%3C/div%3E" type="datasource_from_screen">
+            <field name="{{cronapi.screen.datasourceFromScreen}}">User</field>
+          </block>
+        </value>
+        <next>
+          <block colour="#934848" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="y?/H~N29I-^6WU@P1#Mb" multilayer="true" namespace="cronapi.screen.notify" origintype="notify_type" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3EName:%3C/strong%3E%3Cdiv%3EShow%20notification%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescription:%3C/strong%3E%3Cdiv%3EFunction%20that%20show%20a%20notification%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParameters:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Notification%20type%20:%20String%3C/span%3E%3Cdiv%3E%20Can%20receive%20values%20success,%20error,%20warning,%20info%20or%20primary%3C/div%3E%3Cspan%3E%20-%20Message%20:%20String%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EHelp:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.notify%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.notify%3C/a%3E%3C/div%3E%3C/div%3E" type="notify_type">
+            <mutation name="{{cronapi.screen.notify}}" value="[object Object]"/>
+            <field name="SELECT">success</field>
+            <value name="MESSAGE">
+              <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="_uB!9uU.,uT_d)]Z/]/h" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field name="TEXT"/>
+              </shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block colour="#a55b80" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="OShG?e!Z%+r6x.8;Q`7$" origintype="variables_get" output="true" tooltip="Returns the value of this variable." type="variables_get" x="-236" y="224">
+    <field name="VAR">item</field>
+  </block>
+</blockly>

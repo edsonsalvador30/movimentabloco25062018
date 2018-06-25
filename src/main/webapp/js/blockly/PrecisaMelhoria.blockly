@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly formTarget="src/main/webapp/views/admin/user.view.html" resourceType="JS" ruleDescription="PrecisaMelhoria" ruleName="PrecisaMelhoria" ruleSynchronous="false" ruleTimeout="300" ruleType="I">
+  <metadata scale="1" scrollx="359.0000000000001" scrolly="-0.9999999999998863" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <block colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Creates a function with an output." type="procedures_defreturn" x="-157" y="83">
+    <field name="NAME">Execute</field>
+    <comment h="80" pinned="false" w="160">PrecisaMelhoria</comment>
+    <statement name="STACK">
+      <block colour="#a55b80" dependencyby="Anb:u5+^,0vLkL9QIqn5" id=",K@53AMb?#{/gT4-|L:t" origintype="variables_set" output="false" tooltip="Sets this variable to be equal to the input." type="variables_set">
+        <field name="VAR">item</field>
+        <next>
+          <block colour="#934848" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="$3/(VG[1SELp9#{Nu%:e" multilayer="true" namespace="cronapi.screen.changeValueOfField" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3EName:%3C/strong%3E%3Cdiv%3EChange%20field%20value%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescription:%3C/strong%3E%3Cdiv%3EFunction%20to%20change%20field%20value%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParameters:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Field%20:%20String%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20value%20:%20String%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EHelp:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.changeValueOfField%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.changeValueOfField%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+            <mutation name="{{cronapi.screen.changeValueOfField}}" return-raw-type="undefined">
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Field"/>
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="value"/>
+            </mutation>
+            <value name="ARG0">
+              <block colour="#934848" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="lWB,:k`aLMx^)_Dkstb`" origintype="form_fieldscreen_callreturn" output="true" type="form_fieldscreen_callreturn">
+                <field name="SELECT"/>
+              </block>
+            </value>
+            <value name="ARG1">
+              <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="a}x`WW=W@VF#[jJ!P(U;" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field name="TEXT"/>
+              </shadow>
+              <block colour="#7d9137" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="i=Ozt_uRG`iS)?s^uPQV" multilayer="false" namespace="cronapi.dateTime.formatDateTime" origintype="procedures_callreturn" output="true" returntype="ObjectType.STRING" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3EName:%3C/strong%3E%3Cdiv%3EFormat%20date%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescription:%3C/strong%3E%3Cdiv%3EFunction%20to%20format%20date%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParameters:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Date%20:%20DateTime%20%20%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Format%20:%20String%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3EReturn:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20String%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EHelp:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.dateTime.formatDateTime%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.dateTime.formatDateTime%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                <mutation name="{{cronapi.dateTime.formatDateTime}}" return-raw-type="undefined">
+                  <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.DATETIME" name="Date"/>
+                  <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Format"/>
+                </mutation>
+                <value name="ARG1">
+                  <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="uF:/dUWVY:xbLj+*{2WP" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                    <field name="TEXT"/>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block colour="#934848" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="`#-iUk)-MyQc%lV`M|7q" multilayer="true" namespace="cronapi.screen.changeView" origintype="procedures_open_form_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3EName:%3C/strong%3E%3Cdiv%3EChange%20view%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescription:%3C/strong%3E%3Cdiv%3EFunction%20to%20change%20the%20current%20view%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParameters:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Destination%20view%20:%20String%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Parameters%20:%20List%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EHelp:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.changeView%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.changeView%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_open_form_callnoreturn">
+                <mutation data="null" name="{{cronapi.screen.changeView}}"/>
+                <next>
+                  <block colour="#745ba5" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="#/Js@Agt73iVc1=^9k-z" origintype="lists_setIndex" output="false" tooltip="function() {&#10;      var mode = thisBlock.getFieldValue('MODE');&#10;      var where = thisBlock.getFieldValue('WHERE');&#10;      var tooltip = '';&#10;      switch(mode + ' ' + where) {&#10;      case 'SET FROM_START':&#10;      case 'SET FROM_END':&#10;        tooltip = Blockly.Msg.LISTS_SET_INDEX_TOOLTIP_SET_FROM;&#10;        break;&#10;      case 'SET FIRST':&#10;        tooltip = Blockly.Msg.LISTS_SET_INDEX_TOOLTIP_SET_FIRST;&#10;        break;&#10;      case 'SET LAST':&#10;        tooltip = Blockly.Msg.LISTS_SET_INDEX_TOOLTIP_SET_LAST;&#10;        break;&#10;      case 'SET RANDOM':&#10;        tooltip = Blockly.Msg.LISTS_SET_INDEX_TOOLTIP_SET_RANDOM;&#10;        break;&#10;      case 'INSERT FROM_START':&#10;      case 'INSERT FROM_END':&#10;        tooltip = Blockly.Msg.LISTS_SET_INDEX_TOOLTIP_INSERT_FROM;&#10;        break;&#10;      case 'INSERT FIRST':&#10;        tooltip = Blockly.Msg.LISTS_SET_INDEX_TOOLTIP_INSERT_FIRST;&#10;        break;&#10;      case 'INSERT LAST':&#10;        tooltip = Blockly.Msg.LISTS_SET_INDEX_TOOLTIP_INSERT_LAST;&#10;        break;&#10;      case 'INSERT RANDOM':&#10;        tooltip = Blockly.Msg.LISTS_SET_INDEX_TOOLTIP_INSERT_RANDOM;&#10;        break;&#10;      }&#10;      if(where == 'FROM_START' || where == 'FROM_END') {&#10;        tooltip += '  ' + Blockly.Msg.LISTS_INDEX_FROM_START_TOOLTIP.replace('%1', thisBlock.workspace.options.oneBasedIndex ? '#1' : '#0');&#10;      }&#10;      return tooltip;&#10;    }" type="lists_setIndex">
+                    <mutation at="true"/>
+                    <field name="MODE">SET</field>
+                    <field name="WHERE">FROM_START</field>
+                    <value name="LIST">
+                      <block colour="#a55b80" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="6T,$jl69/^2q|GdddFU(" origintype="variables_get" output="true" tooltip="Returns the value of this variable." type="variables_get">
+                        <field name="VAR">list</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</blockly>
